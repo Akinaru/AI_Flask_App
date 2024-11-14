@@ -1,0 +1,34 @@
+# Environnements virtuels
+venv/
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+share/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Configurations locales de l'IDE
+*.env
+*.DS_Store
+*.vscode/
+.idea/
+
+# Fichiers de logs
+*.log
+
+# Dépendances et fichiers compilés
+*.egg-info/
+*.egg
+*.so
+
+# Clés de sécurité et variables sensibles
+.env
+
+# Images statiques, si générées dynamiquement
+static/uploads/
